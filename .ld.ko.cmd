@@ -1,0 +1,1 @@
+cmd_/home/neo/smu/oasis/k-loader/ld.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/neo/smu/oasis/k-loader/ld.ko /home/neo/smu/oasis/k-loader/ld.o /home/neo/smu/oasis/k-loader/ld.mod.o ;  true

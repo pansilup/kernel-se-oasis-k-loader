@@ -1,0 +1,213 @@
+cat /proc/12397/maps
+7f0000000000-7f0000008000 r-xp 00000000 103:06 5767474                   /home/beverly/KRover/KRover/KRover/loader/testtest
+7f0000207000-7f0000208000 r--p 00007000 103:06 5767474                   /home/beverly/KRover/KRover/KRover/loader/testtest
+7f0000208000-7f0000209000 rw-p 00008000 103:06 5767474                   /home/beverly/KRover/KRover/KRover/loader/testtest
+7f0001138000-7f0001241000 rw-p 00000000 00:00 0                          [heap]
+7f1000300000-7f1000301000 rwxp 00000000 103:06 5778019                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/signal_toy/sig_wrap/sig_wrap.so
+7f1000600000-7f1000601000 rwxp 00000000 103:06 5778010                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/signal_toy/dummy_handler/hello
+7f1000804000-7f1000805000 rw-p 00000000 103:06 5778010                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/signal_toy/dummy_handler/hello
+7f1000900000-7f1000901000 rwxp 00000000 103:06 5778025                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/springboard/gate.so
+7f1000901000-7f100090b000 rw-p 00000000 103:06 5778023                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/springboard/data_page
+7f100090b000-7f100090c000 rwxp 00000000 103:06 5778028                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/springboard/syscall_gate.so
+7f100090d000-7f100090e000 rwxp 00000000 103:06 5778005                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/pf_stub/pf.so
+7f100090e000-7f100090f000 rwxp 00000000 103:06 5778005                   /home/beverly/KRover/oasis-lib/KRover-OASIS-Lib/pf_stub/pf.so
+7f7000000000-7f7000179000 r-xp 00000000 103:06 5767444                   /home/beverly/KRover/KRover/KRover/liboasis.so
+7f7000179000-7f7000378000 ---p 00179000 103:06 5767444                   /home/beverly/KRover/KRover/KRover/liboasis.so
+7f7000378000-7f700037b000 r--p 00178000 103:06 5767444                   /home/beverly/KRover/KRover/KRover/liboasis.so
+7f700037b000-7f7000383000 rw-p 0017b000 103:06 5767444                   /home/beverly/KRover/KRover/KRover/liboasis.so
+7f7000383000-7f7000386000 rw-p 00000000 00:00 0 
+7f7000386000-7f700041c000 r--p 00000000 103:06 911304                    /home/beverly/KRover/dyninst/install/lib/libstdc++.so.6.0.28
+7f700041c000-7f7000519000 r-xp 00096000 103:06 911304                    /home/beverly/KRover/dyninst/install/lib/libstdc++.so.6.0.28
+7f7000519000-7f7000563000 r--p 00193000 103:06 911304                    /home/beverly/KRover/dyninst/install/lib/libstdc++.so.6.0.28
+7f7000563000-7f700056e000 r--p 001dc000 103:06 911304                    /home/beverly/KRover/dyninst/install/lib/libstdc++.so.6.0.28
+7f700056e000-7f7000571000 rw-p 001e7000 103:06 911304                    /home/beverly/KRover/dyninst/install/lib/libstdc++.so.6.0.28
+7f7000571000-7f7000574000 rw-p 00000000 00:00 0 
+7f7000574000-7f700058b000 r-xp 00000000 103:06 8650758                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f700058b000-7f700078a000 ---p 00017000 103:06 8650758                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f700078a000-7f700078b000 r--p 00016000 103:06 8650758                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f700078b000-7f700078c000 rw-p 00017000 103:06 8650758                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f700078c000-7f700093d000 r-xp 00000000 103:06 1055644                   /home/beverly/KRover/u-loader/install/lib/libc-2.30.so
+7f700093d000-7f7000b3d000 ---p 001b1000 103:06 1055644                   /home/beverly/KRover/u-loader/install/lib/libc-2.30.so
+7f7000b3d000-7f7000b41000 r--p 001b1000 103:06 1055644                   /home/beverly/KRover/u-loader/install/lib/libc-2.30.so
+7f7000b41000-7f7000b43000 rw-p 001b5000 103:06 1055644                   /home/beverly/KRover/u-loader/install/lib/libc-2.30.so
+7f7000b43000-7f7000b47000 rw-p 00000000 00:00 0 
+7f7000b47000-7f7000bd1000 r--p 00000000 103:06 1098787                   /home/beverly/KRover/Z3/z3-solver/z3/libz3.so
+7f7000bd1000-7f7001f78000 r-xp 0008a000 103:06 1098787                   /home/beverly/KRover/Z3/z3-solver/z3/libz3.so
+7f7001f78000-7f7002268000 r--p 01431000 103:06 1098787                   /home/beverly/KRover/Z3/z3-solver/z3/libz3.so
+7f7002268000-7f7002292000 r--p 01720000 103:06 1098787                   /home/beverly/KRover/Z3/z3-solver/z3/libz3.so
+7f7002292000-7f7002295000 rw-p 0174a000 103:06 1098787                   /home/beverly/KRover/Z3/z3-solver/z3/libz3.so
+7f7002295000-7f7002296000 rw-p 00000000 00:00 0 
+7f7002296000-7f7002645000 r-xp 00000000 103:06 911196                    /home/beverly/KRover/dyninst/install/lib/libparseAPI.so.12.0.1
+7f7002645000-7f7002844000 ---p 003af000 103:06 911196                    /home/beverly/KRover/dyninst/install/lib/libparseAPI.so.12.0.1
+7f7002844000-7f7002853000 r--p 003ae000 103:06 911196                    /home/beverly/KRover/dyninst/install/lib/libparseAPI.so.12.0.1
+7f7002853000-7f7002855000 rw-p 003bd000 103:06 911196                    /home/beverly/KRover/dyninst/install/lib/libparseAPI.so.12.0.1
+7f7002855000-7f7002857000 rw-p 00000000 00:00 0 
+7f7002857000-7f70029d4000 r-xp 00000000 103:06 910863                    /home/beverly/KRover/dyninst/install/lib/libinstructionAPI.so.12.0.1
+7f70029d4000-7f7002bd4000 ---p 0017d000 103:06 910863                    /home/beverly/KRover/dyninst/install/lib/libinstructionAPI.so.12.0.1
+7f7002bd4000-7f7002c0a000 r--p 0017d000 103:06 910863                    /home/beverly/KRover/dyninst/install/lib/libinstructionAPI.so.12.0.1
+7f7002c0a000-7f7002c0b000 rw-p 001b3000 103:06 910863                    /home/beverly/KRover/dyninst/install/lib/libinstructionAPI.so.12.0.1
+7f7002c0b000-7f7002c0d000 rw-p 00000000 00:00 0 
+7f7002c0d000-7f7002d2a000 r-xp 00000000 103:06 910489                    /home/beverly/KRover/dyninst/install/lib/libcommon.so.12.0.1
+7f7002d2a000-7f7002f29000 ---p 0011d000 103:06 910489                    /home/beverly/KRover/dyninst/install/lib/libcommon.so.12.0.1
+7f7002f29000-7f7002f33000 r--p 0011c000 103:06 910489                    /home/beverly/KRover/dyninst/install/lib/libcommon.so.12.0.1
+7f7002f33000-7f7002f7d000 rw-p 00126000 103:06 910489                    /home/beverly/KRover/dyninst/install/lib/libcommon.so.12.0.1
+7f7002f7d000-7f7002f83000 rw-p 00000000 00:00 0 
+7f7002f83000-7f70030c1000 r-xp 00000000 103:06 1167231                   /home/beverly/KRover/u-loader/install/lib/libm-2.30.so
+7f70030c1000-7f70032c0000 ---p 0013e000 103:06 1167231                   /home/beverly/KRover/u-loader/install/lib/libm-2.30.so
+7f70032c0000-7f70032c1000 r--p 0013d000 103:06 1167231                   /home/beverly/KRover/u-loader/install/lib/libm-2.30.so
+7f70032c1000-7f70032c2000 rw-p 0013e000 103:06 1167231                   /home/beverly/KRover/u-loader/install/lib/libm-2.30.so
+7f70032c2000-7f70032dd000 r-xp 00000000 103:06 1167299                   /home/beverly/KRover/u-loader/install/lib/libpthread-2.30.so
+7f70032dd000-7f70034dc000 ---p 0001b000 103:06 1167299                   /home/beverly/KRover/u-loader/install/lib/libpthread-2.30.so
+7f70034dc000-7f70034dd000 r--p 0001a000 103:06 1167299                   /home/beverly/KRover/u-loader/install/lib/libpthread-2.30.so
+7f70034dd000-7f70034de000 rw-p 0001b000 103:06 1167299                   /home/beverly/KRover/u-loader/install/lib/libpthread-2.30.so
+7f70034de000-7f70034e2000 rw-p 00000000 00:00 0 
+7f70034e2000-7f700361c000 r-xp 00000000 103:06 911030                    /home/beverly/KRover/dyninst/install/lib/libsymtabAPI.so.12.0.1
+7f700361c000-7f700381b000 ---p 0013a000 103:06 911030                    /home/beverly/KRover/dyninst/install/lib/libsymtabAPI.so.12.0.1
+7f700381b000-7f700381e000 r--p 00139000 103:06 911030                    /home/beverly/KRover/dyninst/install/lib/libsymtabAPI.so.12.0.1
+7f700381e000-7f7003821000 rw-p 0013c000 103:06 911030                    /home/beverly/KRover/dyninst/install/lib/libsymtabAPI.so.12.0.1
+7f7003821000-7f7003842000 r-xp 00000000 103:06 910313                    /home/beverly/KRover/dyninst/install/lib/libboost_thread.so.1.70.0
+7f7003842000-7f7003a42000 ---p 00021000 103:06 910313                    /home/beverly/KRover/dyninst/install/lib/libboost_thread.so.1.70.0
+7f7003a42000-7f7003a44000 r--p 00021000 103:06 910313                    /home/beverly/KRover/dyninst/install/lib/libboost_thread.so.1.70.0
+7f7003a44000-7f7003a45000 rw-p 00023000 103:06 910313                    /home/beverly/KRover/dyninst/install/lib/libboost_thread.so.1.70.0
+7f7003a45000-7f7003a7c000 r-xp 00000000 103:06 888565                    /home/beverly/KRover/dyninst/install/lib/libtbb.so.2
+7f7003a7c000-7f7003c7b000 ---p 00037000 103:06 888565                    /home/beverly/KRover/dyninst/install/lib/libtbb.so.2
+7f7003c7b000-7f7003c7d000 r--p 00036000 103:06 888565                    /home/beverly/KRover/dyninst/install/lib/libtbb.so.2
+7f7003c7d000-7f7003c7f000 rw-p 00038000 103:06 888565                    /home/beverly/KRover/dyninst/install/lib/libtbb.so.2
+7f7003c7f000-7f7003c82000 rw-p 00000000 00:00 0 
+7f7003c82000-7f7003c84000 r-xp 00000000 103:06 888566                    /home/beverly/KRover/dyninst/install/lib/libtbbmalloc_proxy.so.2
+7f7003c84000-7f7003e83000 ---p 00002000 103:06 888566                    /home/beverly/KRover/dyninst/install/lib/libtbbmalloc_proxy.so.2
+7f7003e83000-7f7003e84000 r--p 00001000 103:06 888566                    /home/beverly/KRover/dyninst/install/lib/libtbbmalloc_proxy.so.2
+7f7003e84000-7f7003e85000 rw-p 00002000 103:06 888566                    /home/beverly/KRover/dyninst/install/lib/libtbbmalloc_proxy.so.2
+7f7003e85000-7f7003eb3000 r-xp 00000000 103:06 1167080                   /home/beverly/KRover/u-loader/install/lib/libgomp.so.1
+7f7003eb3000-7f70040b2000 ---p 0002e000 103:06 1167080                   /home/beverly/KRover/u-loader/install/lib/libgomp.so.1
+7f70040b2000-7f70040b3000 r--p 0002d000 103:06 1167080                   /home/beverly/KRover/u-loader/install/lib/libgomp.so.1
+7f70040b3000-7f70040b4000 rw-p 0002e000 103:06 1167080                   /home/beverly/KRover/u-loader/install/lib/libgomp.so.1
+7f70040b4000-7f70040ce000 r-xp 00000000 103:06 910309                    /home/beverly/KRover/dyninst/install/lib/libboost_filesystem.so.1.70.0
+7f70040ce000-7f70042cd000 ---p 0001a000 103:06 910309                    /home/beverly/KRover/dyninst/install/lib/libboost_filesystem.so.1.70.0
+7f70042cd000-7f70042ce000 r--p 00019000 103:06 910309                    /home/beverly/KRover/dyninst/install/lib/libboost_filesystem.so.1.70.0
+7f70042ce000-7f70042cf000 rw-p 0001a000 103:06 910309                    /home/beverly/KRover/dyninst/install/lib/libboost_filesystem.so.1.70.0
+7f70042cf000-7f70042e6000 r-xp 00000000 103:06 910765                    /home/beverly/KRover/dyninst/install/lib/libdynDwarf.so.12.0.1
+7f70042e6000-7f70044e6000 ---p 00017000 103:06 910765                    /home/beverly/KRover/dyninst/install/lib/libdynDwarf.so.12.0.1
+7f70044e6000-7f70044e7000 r--p 00017000 103:06 910765                    /home/beverly/KRover/dyninst/install/lib/libdynDwarf.so.12.0.1
+7f70044e7000-7f70044e8000 rw-p 00018000 103:06 910765                    /home/beverly/KRover/dyninst/install/lib/libdynDwarf.so.12.0.1
+7f70044e8000-7f700450c000 r-xp 00000000 103:06 891132                    /home/beverly/KRover/dyninst/install/lib/libelf-0.186.so
+7f700450c000-7f700470b000 ---p 00024000 103:06 891132                    /home/beverly/KRover/dyninst/install/lib/libelf-0.186.so
+7f700470b000-7f700470c000 r--p 00023000 103:06 891132                    /home/beverly/KRover/dyninst/install/lib/libelf-0.186.so
+7f700470c000-7f700470d000 rw-p 00024000 103:06 891132                    /home/beverly/KRover/dyninst/install/lib/libelf-0.186.so
+7f700470d000-7f70047ce000 r-xp 00000000 103:06 891883                    /home/beverly/KRover/dyninst/install/lib/libdw-0.186.so
+7f70047ce000-7f70049cd000 ---p 000c1000 103:06 891883                    /home/beverly/KRover/dyninst/install/lib/libdw-0.186.so
+7f70049cd000-7f70049d5000 r--p 000c0000 103:06 891883                    /home/beverly/KRover/dyninst/install/lib/libdw-0.186.so
+7f70049d5000-7f70049d7000 rw-p 000c8000 103:06 891883                    /home/beverly/KRover/dyninst/install/lib/libdw-0.186.so
+7f70049d7000-7f70049f9000 r-xp 00000000 103:06 910727                    /home/beverly/KRover/dyninst/install/lib/libdynElf.so.12.0.1
+7f70049f9000-7f7004bf8000 ---p 00022000 103:06 910727                    /home/beverly/KRover/dyninst/install/lib/libdynElf.so.12.0.1
+7f7004bf8000-7f7004bf9000 r--p 00021000 103:06 910727                    /home/beverly/KRover/dyninst/install/lib/libdynElf.so.12.0.1
+7f7004bf9000-7f7004bfa000 rw-p 00022000 103:06 910727                    /home/beverly/KRover/dyninst/install/lib/libdynElf.so.12.0.1
+7f7004bfa000-7f7004bfd000 r-xp 00000000 103:06 1167295                   /home/beverly/KRover/u-loader/install/lib/libdl-2.30.so
+7f7004bfd000-7f7004dfc000 ---p 00003000 103:06 1167295                   /home/beverly/KRover/u-loader/install/lib/libdl-2.30.so
+7f7004dfc000-7f7004dfd000 r--p 00002000 103:06 1167295                   /home/beverly/KRover/u-loader/install/lib/libdl-2.30.so
+7f7004dfd000-7f7004dfe000 rw-p 00003000 103:06 1167295                   /home/beverly/KRover/u-loader/install/lib/libdl-2.30.so
+7f7004dfe000-7f7004e17000 r-xp 00000000 103:06 1167082                   /home/beverly/KRover/u-loader/install/lib/libtbbmalloc.so.2
+7f7004e17000-7f7005016000 ---p 00019000 103:06 1167082                   /home/beverly/KRover/u-loader/install/lib/libtbbmalloc.so.2
+7f7005016000-7f7005017000 r--p 00018000 103:06 1167082                   /home/beverly/KRover/u-loader/install/lib/libtbbmalloc.so.2
+7f7005017000-7f7005019000 rw-p 00019000 103:06 1167082                   /home/beverly/KRover/u-loader/install/lib/libtbbmalloc.so.2
+7f7005019000-7f700503c000 rw-p 00000000 00:00 0 
+7f700503c000-7f7005058000 r-xp 00000000 103:06 1167084                   /home/beverly/KRover/u-loader/install/lib/libz.so.1
+7f7005058000-7f7005257000 ---p 0001c000 103:06 1167084                   /home/beverly/KRover/u-loader/install/lib/libz.so.1
+7f7005257000-7f7005258000 r--p 0001b000 103:06 1167084                   /home/beverly/KRover/u-loader/install/lib/libz.so.1
+7f7005258000-7f7005259000 rw-p 0001c000 103:06 1167084                   /home/beverly/KRover/u-loader/install/lib/libz.so.1
+7f7005259000-7f700527d000 r-xp 00000000 103:06 1167085                   /home/beverly/KRover/u-loader/install/lib/liblzma.so.5
+7f700527d000-7f700547d000 ---p 00024000 103:06 1167085                   /home/beverly/KRover/u-loader/install/lib/liblzma.so.5
+7f700547d000-7f700547e000 r--p 00024000 103:06 1167085                   /home/beverly/KRover/u-loader/install/lib/liblzma.so.5
+7f700547e000-7f700547f000 rw-p 00025000 103:06 1167085                   /home/beverly/KRover/u-loader/install/lib/liblzma.so.5
+7f700547f000-7f700548e000 r-xp 00000000 103:06 1167086                   /home/beverly/KRover/u-loader/install/lib/libbz2.so.1.0
+7f700548e000-7f700568d000 ---p 0000f000 103:06 1167086                   /home/beverly/KRover/u-loader/install/lib/libbz2.so.1.0
+7f700568d000-7f700568e000 r--p 0000e000 103:06 1167086                   /home/beverly/KRover/u-loader/install/lib/libbz2.so.1.0
+7f700568e000-7f700568f000 rw-p 0000f000 103:06 1167086                   /home/beverly/KRover/u-loader/install/lib/libbz2.so.1.0
+7f7ff7dd0000-7f7ff7df7000 r-xp 00000000 103:06 1055745                   /home/beverly/KRover/u-loader/build-glibc/elf/ld.so
+7f7ff7ff6000-7f7ff7ff7000 r--p 00026000 103:06 1055745                   /home/beverly/KRover/u-loader/build-glibc/elf/ld.so
+7f7ff7ff7000-7f7ff7ff9000 rw-p 00027000 103:06 1055745                   /home/beverly/KRover/u-loader/build-glibc/elf/ld.so
+7f7ff7ffb000-7f7ff7ffe000 r--p 00000000 00:00 0                          [vvar]
+7f7ff7ffe000-7f7ff7fff000 r-xp 00000000 00:00 0                          [vdso]
+7f7ffffde000-7f7ffffff000 rw-p 00000000 00:00 0                          [stack]
+7fcf57705000-7fcf589a4000 rw-p 00000000 00:00 0 
+7fcf589a6000-7fcf589aa000 rw-p 00000000 00:00 0 
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+
+[ 1332.530797] set bp in execve as dr0: 7f0000002c40, dr7: 401, sp: 7f7fffffee10, fs: 0
+[ 1332.538214] xcr0_h: 0x0, xcr0_l: 0x1f
+[ 1332.538215] enter_vcpu(): rfs: 0x7fcf58997940, xcr0: 0x1f
+[ 1332.538216] last_cr3: aa6ea002, guest_syscall_entry: ffffffff81c00010. 
+[ 1332.538217] get_next_ctx(): picked VM: target_vm_pid: 12142 process: qemu-
+
+[ 1366.390639] onsite is not ready: flag is : 0. 
+[ 1368.258820] handle_vmcall(): rax: ffffffff. 
+[ 1368.258821] tmp_ptr: 00007f100090efb8, content: 7f7fffffec18. 
+[ 1368.258822] tmp_ptr: 00007f100090efc0, content: 7fcf589978a0. 
+[ 1368.258822] tmp_ptr: 00007f100090efc8, content: ffffffffffffff60. 
+[ 1368.258822] tmp_ptr: 00007f100090efd0, content: 4. 
+[ 1368.258823] tmp_ptr: 00007f100090efd8, content: 7f70007ef2fb. 
+[ 1368.258823] tmp_ptr: 00007f100090efe0, content: 33. 
+[ 1368.258823] tmp_ptr: 00007f100090efe8, content: 10206. 
+[ 1368.258824] tmp_ptr: 00007f100090eff0, content: 7f7fffffe6a0. 
+[ 1368.258824] tmp_ptr: 00007f100090eff8, content: 2b. 
+[ 1368.258825] rax: ffffffff, rcx: 0, rbx: 0, rdx: 7fcf589978a0, rdi: 7f7000b426a0, rsi: 7f0000006b50, r8: a, r9: 0, r10: 7f7000b48c28, r11: 293, r12: 7f0000000cc0, r13: 7f7fffffee10, r14: 0, r15: 0, rip: 7f100090d29f, rsp: 7f100090efb8, eflags: 12. 
+[ 1368.258825] cr2: 7fcf589978a0. 
+              0x00007fcf58997940
+                  0x7fcf58997940
+[ 1368.258826] *** Guest State ***
+[ 1368.258827] CR0: actual=0x0000000080050033, shadow=0x0000000080050033, gh_mask=fffffffffffffff7
+[ 1368.258828] CR4: actual=0x00000000000526f0, shadow=0x00000000000506f0, gh_mask=ffffffffffffe871
+[ 1368.258828] CR3 = 0x00000060aa6ea002
+[ 1368.258829] RSP = 0x00007f100090efb8  RIP = 0x00007f100090d29f
+[ 1368.258829] RFLAGS=0x00000012         DR7 = 0x0000000000000400
+[ 1368.258830] Sysenter RSP=0000000000000000 CS:RIP=0000:0000000000000000
+[ 1368.258831] CS:   sel=0x0010, attr=0x0a09b, limit=0xffffffff, base=0x0000000000000000
+[ 1368.258832] DS:   sel=0x0000, attr=0x10000, limit=0x000fffff, base=0x0000000000000000
+[ 1368.258832] SS:   sel=0x0000, attr=0x1c000, limit=0xffffffff, base=0x0000000000000000
+[ 1368.258833] ES:   sel=0x0000, attr=0x00093, limit=0x0000ffff, base=0x0000000000000000
+[ 1368.258834] FS:   sel=0x0000, attr=0x10000, limit=0x000fffff, base=0x00007fcf58997940
+[ 1368.258834] GS:   sel=0x0000, attr=0x10000, limit=0x000fffff, base=0xffff88883c480000
+[ 1368.258835] GDTR:                           limit=0x0000fff8, base=0x00007f1000902000
+[ 1368.258836] LDTR: sel=0x0000, attr=0x10000, limit=0x000fffff, base=0x0000000000000000
+[ 1368.258836] IDTR:                           limit=0x00000fff, base=0x00007f1000901000
+[ 1368.258837] TR:   sel=0x0040, attr=0x0008b, limit=0x0000206f, base=0x00007f1000903000
+[ 1368.258837] EFER =     0x0000000000000d01  PAT = 0x0007040600070406
+[ 1368.258838] DebugCtl = 0x0000000000000000  DebugExceptions = 0x0000000000000000
+[ 1368.258838] BndCfgS = 0x0000000000000000
+[ 1368.258839] Interruptibility = 00000000  ActivityState = 00000000
+[ 1368.258839] *** Host State ***
+[ 1368.258840] RIP = 0xffffffffc0a72490  RSP = 0xfffffe0000075d90
+[ 1368.258841] CS=0010 SS=0018 DS=0000 ES=0000 FS=0000 GS=0000 TR=0040
+[ 1368.258841] FSBase=00007fcf58997940 GSBase=ffff88883c480000 TRBase=fffffe0000069000
+[ 1368.258842] GDTBase=fffffe0000067000 IDTBase=fffffe0000000000
+[ 1368.258842] CR0=0000000080050033 CR3=0000000570a46001 CR4=00000000001626e0
+[ 1368.258843] Sysenter RSP=fffffe0000068200 CS:RIP=0010:ffffffff81c01650
+[ 1368.258844] EFER = 0x0000000000000d01  PAT = 0x0407050600070106
+[ 1368.258844] *** Control State ***
+[ 1368.258845] PinBased=0000007f CPUBased=b5186dfa SecondaryExec=0017b4ea
+[ 1368.258845] EntryControls=000153ff ExitControls=008befff
+[ 1368.258846] ExceptionBitmap=ffefbff3 PFECmask=00000000 PFECmatch=00000000
+[ 1368.258846] VMEntry: intr_info=00000000 errcode=00000000 ilen=00000000
+[ 1368.258847] VMExit: intr_info=00000000 errcode=00000000 ilen=00000003
+[ 1368.258847]         reason=00000012 qualification=0000000000000000
+[ 1368.258848] IDTVectoring: info=00000000 errcode=00000000
+[ 1368.258848] TSC Offset = 0xfffffcf1474cebfc
+[ 1368.258849] EPT pointer = 0x000000056ca5401e
+[ 1368.258849] PLE Gap=00000080 Window=00001000
+[ 1368.258850] Virtual processor ID = 0x0003
+[ 1368.258852] return from first time vcpu enter, r = -5
+[ 1368.258853] onsite process should exit due to unexpected error, returned r: -5 from vcpu_entry 
+[ 1368.259475] imee stopping... AEB1
+[ 1368.259475] kvm_imee_stop(): releasing OASIS. cpuid:2
+[ 1368.259476] free_contexts(): release ctx->pt_page. 
+[ 1368.259509] free_contexts(): release ctx->pd_page. 
+[ 1368.259509] free_contexts(): release ctx->non leaf_page. 
+[ 1368.259510] free_contexts(): release ctx->s_pt_page. 
+[ 1368.259536] free_contexts(): release ctx->s_pd_page. 
+[ 1368.259537] free_contexts(): release ctx->s_non_leaf_page. 
+[ 1368.259537] release_ept_frames(): release 0 th EPT frames. 
+[ 1368.259538] release_ept_frames(): release 1 th EPT frames. 
+[ 1368.259538] remove_int_handlers(): remove int handlers done
+[ 1368.259538] =================end===================
+[ 1381.076642] iwlwifi 0000:52:00.0: Got NSS = 4 - trimming to 2
